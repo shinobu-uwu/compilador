@@ -15,7 +15,7 @@ public sealed class BotaoAbrir : BotaoBarraFerramentas
             {
                 var form = FormPrincipal.GetInstancia();
                 form.BarraStatus.Text = dialog.FileName;
-                form.TextoEditor.LoadFile(dialog.FileName);
+                form.TextoEditor.Text = File.ReadAllText(dialog.FileName);
             }
         };
     }

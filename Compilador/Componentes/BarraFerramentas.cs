@@ -4,10 +4,14 @@ namespace Compilador.Componentes;
 
 public sealed class BarraFerramentas : MenuStrip
 {
+    private const int Altura = 70;
+
     public BarraFerramentas()
     {
-        Dock = DockStyle.Top;
-        Size = new Size(900, 70);
+        BackColor = Color.White;
+        Anchor = AnchorStyles.Top | AnchorStyles.Left;
+        Location = new Point(0, 0);
+        Size = new Size(ClientSize.Width, Altura);
         AddBotoes();
     }
 
@@ -24,7 +28,7 @@ public sealed class BarraFerramentas : MenuStrip
             new BotaoCompilar(),
             new BotaoEquipe(),
         };
-        
+
         Items.AddRange(botoes);
     }
 }
