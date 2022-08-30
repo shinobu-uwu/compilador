@@ -6,7 +6,7 @@ public sealed class BarraStatus : Label
     
     public BarraStatus()
     {
-        Size = new Size(ClientSize.Width, Altura);
+        Size = new Size(900, Altura);
         Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
         Text = "Editor iniciado!";
         Location = new Point(0, 540);

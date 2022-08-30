@@ -14,4 +14,14 @@ public sealed class AreaMensagens : RichTextBox
         AcceptsTab = true;
         Multiline = true;
     }
+
+    public void EscreverMensagem(string mensagem, bool limparConteudo = false)
+    {
+        if (limparConteudo)
+        {
+            Text = "";
+        }
+
+        Text += $"{mensagem}\n";
+    }
 }

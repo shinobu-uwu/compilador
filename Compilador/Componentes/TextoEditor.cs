@@ -21,5 +21,6 @@ public sealed class TextoEditor : RichTextBox
         WordWrap = false;
         AcceptsTab = true;
         Multiline = true;
+        TabIndex = 4;
     }
 }

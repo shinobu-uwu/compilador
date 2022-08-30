@@ -7,28 +7,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="210621a7-572a-4263-b844-b5dd6bf4adbc" name="Changes" comment="">
+    <list default="true" id="210621a7-572a-4263-b844-b5dd6bf4adbc" name="Changes" comment="Muita coisa cara">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Compilador/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Compilador/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compilador/Componentes/AreaMensagens.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/Componentes/AreaMensagens.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compilador/Componentes/BarraFerramentas.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/Componentes/BarraFerramentas.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compilador/Componentes/BarraStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/Componentes/BarraStatus.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compilador/Componentes/Botoes/BotaoAbrir.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/Componentes/Botoes/BotaoAbrir.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilador/Componentes/Botoes/BotaoColar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/Componentes/Botoes/BotaoColar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilador/Componentes/Botoes/BotaoCompilar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/Componentes/Botoes/BotaoCompilar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilador/Componentes/Botoes/BotaoCopiar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/Componentes/Botoes/BotaoCopiar.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compilador/Componentes/Botoes/BotaoEquipe.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/Componentes/Botoes/BotaoEquipe.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilador/Componentes/Botoes/BotaoNovo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/Componentes/Botoes/BotaoNovo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilador/Componentes/Botoes/BotaoRecortar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/Componentes/Botoes/BotaoRecortar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilador/Componentes/Botoes/BotaoSalvar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/Componentes/Botoes/BotaoSalvar.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compilador/Componentes/TextoEditor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/Componentes/TextoEditor.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compilador/FormPrincipal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/FormPrincipal.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compilador/bin/Debug/net6.0-windows/Compilador.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/bin/Debug/net6.0-windows/Compilador.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compilador/bin/Debug/net6.0-windows/Compilador.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/bin/Debug/net6.0-windows/Compilador.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compilador/obj/Compilador.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/obj/Compilador.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compilador/obj/Debug/net6.0-windows/Compilador.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/obj/Debug/net6.0-windows/Compilador.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compilador/obj/Debug/net6.0-windows/Compilador.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/obj/Debug/net6.0-windows/Compilador.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compilador/obj/Debug/net6.0-windows/Compilador.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/obj/Debug/net6.0-windows/Compilador.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compilador/obj/Debug/net6.0-windows/Compilador.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/obj/Debug/net6.0-windows/Compilador.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compilador/obj/Debug/net6.0-windows/ref/Compilador.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/obj/Debug/net6.0-windows/ref/Compilador.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compilador/obj/Debug/net6.0-windows/refint/Compilador.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/obj/Debug/net6.0-windows/refint/Compilador.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compilador/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compilador/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compilador/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compilador/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,8 +93,17 @@
       <workItem from="1661711301834" duration="3212000" />
       <workItem from="1661721864060" duration="2553000" />
       <workItem from="1661724658214" duration="3681000" />
-      <workItem from="1661799765702" duration="3977000" />
+      <workItem from="1661799765702" duration="4404000" />
+      <workItem from="1661886830991" duration="4032000" />
     </task>
+    <task id="LOCAL-00001" summary="Muita coisa cara">
+      <created>1661803847359</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661803847359</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,25 +124,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Compilador/Componentes/Botoes/BotaoNovo.cs</url>
-          <line>15</line>
-          <properties documentPath="C:\Users\Matheus\RiderProjects\Compilador\Compilador\Componentes\Botoes\BotaoNovo.cs" initialLine="15" containingFunctionPresentation="lambda expression inside constructor 'BotaoNovo'">
-            <startOffsets>
-              <option value="385" />
-            </startOffsets>
-            <endOffsets>
-              <option value="425" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Muita coisa cara" />
+    <option name="LAST_COMMIT_MESSAGE" value="Muita coisa cara" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

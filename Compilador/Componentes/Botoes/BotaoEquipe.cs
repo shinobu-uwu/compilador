@@ -6,12 +6,13 @@ public sealed class BotaoEquipe : BotaoBarraFerramentas
     {
         Text = "Equipe";
         ToolTipText = "Equipe (F1)";
+    }
 
-        Click += (sender, args) =>
-        {
-            FormPrincipal.GetInstancia().AreaMensagens.Text += @"Integrantes da equipe:
+    protected override void OnClick(EventArgs e)
+    {
+        FormPrincipal.GetInstancia().AreaMensagens.EscreverMensagem(@"Integrantes da equipe:
 Matheus Filipe dos Santos Reinert
-Leonardo Linhares Silva";
-        };
+Leonardo Linhares Silva");
+        base.OnClick(e);
     }
 }

@@ -15,7 +15,7 @@ public sealed class BotaoNovo : BotaoBarraFerramentas
             {
                 var form = FormPrincipal.GetInstancia();
                 form.BarraStatus.Text = dialog.FileName;
-                File.WriteAllText(dialog.FileName, form.TextoEditor.Text);
+                File.WriteAllText(dialog.FileName, "");
             }
         };
     }
