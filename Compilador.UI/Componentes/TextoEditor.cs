@@ -13,9 +13,9 @@ public sealed class TextoEditor : RichTextBox
 
     public TextoEditor()
     {
-        Size = new Size(870, 400);
+        Size = new Size(850, 400);
         Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top | AnchorStyles.Bottom;
-        Location = new Point(13, 30);
+        Location = new Point(33, 30);
         BackColor = Color.White;
         ScrollBars = RichTextBoxScrollBars.ForcedBoth;
         WordWrap = false;

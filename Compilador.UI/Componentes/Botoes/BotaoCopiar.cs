@@ -10,7 +10,13 @@ public sealed class BotaoCopiar : BotaoBarraFerramentas
 
     protected override void OnClick(EventArgs e)
     {
-        Clipboard.SetText(FormPrincipal.GetInstancia().TextoEditor.SelectedText);
+        var texto = FormPrincipal.GetInstancia().TextoEditor.SelectedText;
+        
+        if (texto != "")
+        {
+            Clipboard.SetText(texto);
+        }
+
         base.OnClick(e);
     }
 }

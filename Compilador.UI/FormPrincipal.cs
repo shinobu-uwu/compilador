@@ -13,6 +13,7 @@ public sealed class FormPrincipal : Form
     public readonly TextoEditor TextoEditor = new();
     public readonly BarraStatus BarraStatus = new();
     public readonly AreaMensagens AreaMensagens = new();
+    public readonly NumberedBorder NumberedBorder = new();
     public string? CaminhoArquivoAberto;
 
     public static FormPrincipal GetInstancia()
@@ -59,5 +60,19 @@ public sealed class FormPrincipal : Form
         }
 
         base.OnKeyDown(e);
+    }
+
+    protected override void WndProc(ref Message m)
+    {
+        if (m.Msg == 15)
+        {
+            this.Invalidate();
+            base.WndProc(ref m);
+            NumberedBorder.PaintBorder(TextoEditor, CreateGraphics(), TextoEditor.Height);
+        }
+        else
+        {
+            base.WndProc(ref m);
+        }
     }
 }
