@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compilador", "Compilador\Compilador.csproj", "{181C0BB6-BFEA-4514-8888-2D393C031DA9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compilador.UI", "Compilador.UI\Compilador.UI.csproj", "{181C0BB6-BFEA-4514-8888-2D393C031DA9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
