@@ -7,11 +7,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="210621a7-572a-4263-b844-b5dd6bf4adbc" name="Changes" comment="Add linhas editor">
+    <list default="true" id="210621a7-572a-4263-b844-b5dd6bf4adbc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Compilador.UI/README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Compilador/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Compilador/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compilador.UI/Compilador.UI.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador.UI/Compilador.UI.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compilador.UI/Componentes/NumberBordered.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador.UI/Componentes/NumberBordered.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compilador.UI/obj/Debug/net6.0-windows/Compilador.UI.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador.UI/obj/Debug/net6.0-windows/Compilador.UI.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilador.UI/obj/Compilador.UI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador.UI/obj/Compilador.UI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilador.UI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador.UI/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilador.UI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador.UI/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilador.UI/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador.UI/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilador.UI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador.UI/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +23,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ea0b2e0de1384a05828d9511e8e948a7cb1488/39/94e02c44/Clipboard.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2453d8c69f6984732bb423996da2d28bb39a79917a32a9cb25792faab2f52883/Font.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/2453d8c69f6984732bb423996da2d28bb39a79917a32a9cb25792faab2f52883/Font.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/542ef433efe6a2d5c3f5193b77f76be208cb46630fe509d71265667a555a794/Graphics.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f5cabd5b4265eb68a9a732ab7713027d2d090897da8daae69e4c84f1bbcb35/Padding.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Compilador.UI/Componentes/NumberBordered.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -83,7 +87,8 @@
       <workItem from="1661799765702" duration="4404000" />
       <workItem from="1661886830991" duration="4104000" />
       <workItem from="1661972540718" duration="5340000" />
-      <workItem from="1662058927403" duration="105000" />
+      <workItem from="1662058927403" duration="605000" />
+      <workItem from="1662059555921" duration="171000" />
     </task>
     <task id="LOCAL-00001" summary="Muita coisa cara">
       <created>1661803847359</created>
@@ -113,7 +118,21 @@
       <option name="project" value="LOCAL" />
       <updated>1662058954585</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fix name change">
+      <created>1662059045909</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662059045910</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Stuff">
+      <created>1662059072959</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662059072959</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +157,9 @@
     <MESSAGE value="stuff" />
     <MESSAGE value="Trocar namespace pra Compilador.UI" />
     <MESSAGE value="Add linhas editor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add linhas editor" />
+    <MESSAGE value="Fix name change" />
+    <MESSAGE value="Stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stuff" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
