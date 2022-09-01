@@ -1,4 +1,4 @@
-namespace Compilador.UI;
+namespace Compilador.UI.Componentes;
 
 public class NumberedBorder
 {

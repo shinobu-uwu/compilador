@@ -6,7 +6,7 @@
         <Nullable>enable</Nullable>
         <UseWindowsForms>true</UseWindowsForms>
         <ImplicitUsings>enable</ImplicitUsings>
-        <RootNamespace>Compilador</RootNamespace>
+        <RootNamespace>Compilador.UI</RootNamespace>
     </PropertyGroup>
 
 </Project>
