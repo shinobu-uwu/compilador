@@ -7,14 +7,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="210621a7-572a-4263-b844-b5dd6bf4adbc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Compilador.UI/README.txt" afterDir="false" />
+    <list default="true" id="210621a7-572a-4263-b844-b5dd6bf4adbc" name="Changes" comment="asdas">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Compilador/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Compilador/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilador.UI/bin/Debug/net6.0-windows/Compilador.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilador.UI/bin/Debug/net6.0-windows/Compilador.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilador.UI/bin/Debug/net6.0-windows/Compilador.runtimeconfig.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Compilador.UI/obj/Compilador.UI.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador.UI/obj/Compilador.UI.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Compilador.UI/obj/Compilador.UI.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador.UI/obj/Compilador.UI.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compilador.UI/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador.UI/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Compilador.UI/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador.UI/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compilador.UI/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador.UI/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Compilador.UI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Compilador.UI/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +51,15 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Publish to folder.bin">
+    <configuration name="Publish Compilador.UI to folder" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="Release" platform="Any CPU" runtime="win-x86" target_folder="$PROJECT_DIR$/Compilador.UI/bin/Release/net6.0-windows/win-x86/publish" target_framework="net6.0-windows" uuid_high="1737276435789923604" uuid_low="-8608580963875480151" />
+      <method v="2" />
+    </configuration>
+    <configuration name="bin" type="DotNetFolderPublish" factoryName="Publish to folder">
+      <riderPublish configuration="Release" delete_existing_files="true" include_native_libs_for_self_extract="true" platform="Any CPU" produce_single_file="true" ready_to_run="true" runtime="win-x86" self_contained="true" target_folder="$PROJECT_DIR$/Compilador.UI/bin/Release/net6.0-windows/win-x86/publish" target_framework="net6.0-windows" uuid_high="1737276435789923604" uuid_low="-8608580963875480151" />
+      <method v="2" />
+    </configuration>
     <configuration name="Compilador" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -69,6 +78,11 @@
         <option name="Build" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue=".NET Project.Compilador" />
+      <item itemvalue="Publish to folder.bin" />
+      <item itemvalue="Publish to folder.Publish Compilador.UI to folder" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -88,7 +102,7 @@
       <workItem from="1661886830991" duration="4104000" />
       <workItem from="1661972540718" duration="5340000" />
       <workItem from="1662058927403" duration="605000" />
-      <workItem from="1662059555921" duration="171000" />
+      <workItem from="1662059555921" duration="415000" />
     </task>
     <task id="LOCAL-00001" summary="Muita coisa cara">
       <created>1661803847359</created>
@@ -132,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662059072959</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="asdas">
+      <created>1662059738188</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1662059738188</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,7 +180,8 @@
     <MESSAGE value="Add linhas editor" />
     <MESSAGE value="Fix name change" />
     <MESSAGE value="Stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stuff" />
+    <MESSAGE value="asdas" />
+    <option name="LAST_COMMIT_MESSAGE" value="asdas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

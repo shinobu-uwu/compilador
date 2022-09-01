@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "yOnasztEN4S5r8Z1EavfousZnf7wbviuvZY9/wI5BI88GSAnNq80mZ4BN+LkZs8xrCsqkgF1c91TUygga30uFA==",
+  "dgSpecHash": "NMBUPXIIU3E/jXSfku7FeR1zSyGa2py9xj9Q0rhFqf4nqMp9E4Xg0Vr3f76QHDVk6mT5XRMnIjYJ8gQlkKRguA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Matheus\\RiderProjects\\Compilador\\Compilador.UI\\Compilador.UI.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Matheus\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\6.0.8\\microsoft.netcore.app.runtime.win-x86.6.0.8.nupkg.sha512",
+    "C:\\Users\\Matheus\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\6.0.8\\microsoft.windowsdesktop.app.runtime.win-x86.6.0.8.nupkg.sha512",
+    "C:\\Users\\Matheus\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\6.0.8\\microsoft.aspnetcore.app.runtime.win-x86.6.0.8.nupkg.sha512",
+    "C:\\Users\\Matheus\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.8\\microsoft.netcore.app.crossgen2.win-x64.6.0.8.nupkg.sha512"
+  ],
   "logs": []
 }
